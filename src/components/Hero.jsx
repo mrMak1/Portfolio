@@ -12,7 +12,7 @@ const Hero = () => {
           
           <div className="action-buttons mt-3">
             <a 
-              href="https://www.linkedin.com/in/abdelkrim-meliki-7b0ba8144/" 
+              href="https://www.linkedin.com/in/abdelkrim-meliki/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="linkedin-btn"
