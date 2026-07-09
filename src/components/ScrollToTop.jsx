@@ -6,7 +6,8 @@ const ScrollToTop = () => {
   // مراقبة التمرير لإظهار أو إخفاء الزر
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.scrollY > 300) {
+      // تم تعديل العتبة إلى 100 بكسل لضمان عمل الزر على الشاشات الكبيرة
+      if (window.scrollY > 100) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
