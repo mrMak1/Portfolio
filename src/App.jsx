@@ -3,6 +3,7 @@ import './App.css';
 import ParticlesBackground from './components/ParticlesBackground';
 import Hero from './components/Hero';
 import ExperienceCard from './components/ExperienceCard';
+import ScrollToTop from './components/ScrollToTop';
 import { experiences } from './data/cvData';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
           </section>
         </main>
       </div>
+      
+      {/* زر العودة للأعلى */}
+      <ScrollToTop />
     </div>
   );
 }
