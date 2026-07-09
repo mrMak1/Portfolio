@@ -21,9 +21,8 @@ body, html {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  /* تنعيم الخطوط لتجربة قراءة احترافية */
+  min-height: 100vh;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -87,7 +86,7 @@ body, html {
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 1.5rem;
-  letter-spacing: -0.03em; /* تقارب أنيق للأحرف الكبيرة */
+  letter-spacing: -0.03em; 
 }
 
 .subtitle-container {
@@ -119,7 +118,7 @@ body, html {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 0.7rem 1.4rem;
-  border-radius: 10px; /* حواف أكثر حدة واحترافية */
+  border-radius: 10px; 
   color: var(--text-primary);
   text-decoration: none;
   font-weight: 500;
@@ -219,7 +218,7 @@ body, html {
   border-left: 1px solid rgba(255,255,255,0.2);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  animation: liquid-morph 10s ease-in-out infinite; /* إبطاء الحركة للأناقة */
+  animation: liquid-morph 10s ease-in-out infinite; 
   overflow: hidden;
   padding: 8px;
 }
@@ -258,7 +257,7 @@ body, html {
   background: var(--glass-fill);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-radius: 20px; /* حواف أكثر أناقة وأقل دائرية */
+  border-radius: 20px; 
   padding: 2.5rem;
   border: 1px solid rgba(255, 255, 255, 0.03);
   border-top: 1px solid rgba(255, 255, 255, 0.12);
@@ -346,7 +345,7 @@ body, html {
 }
 
 .role {
-  color: var(--cyan-neon); /* تمييز المسمى الوظيفي بلون خفيف */
+  color: var(--cyan-neon); 
   font-size: 1.05rem;
   font-weight: 500;
   opacity: 0.95;
@@ -370,7 +369,7 @@ body, html {
 .glass-tag {
   background: rgba(255, 255, 255, 0.02);
   padding: 0.5rem 1rem;
-  border-radius: 8px; /* زوايا احترافية للوسوم */
+  border-radius: 8px; 
   font-size: 0.85rem;
   font-weight: 500;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -396,7 +395,7 @@ body, html {
 }
 
 .logo-box {
-  background: rgba(255, 255, 255, 0.95); /* خلفية أنصع للشعارات */
+  background: rgba(255, 255, 255, 0.95); 
   padding: 0.6rem 0.8rem;
   border-radius: 8px;
   display: flex;
@@ -418,9 +417,7 @@ body, html {
   object-fit: contain;
 }
 
-/* =========================================
-   NEW: Scroll To Top Button Styles
-   ========================================= */
+
 .scroll-to-top {
   position: fixed;
   bottom: 2.5rem;

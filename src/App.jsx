@@ -25,7 +25,7 @@ function App() {
         </main>
       </div>
       
-      {/* زر العودة للأعلى */}
+      
       <ScrollToTop />
     </div>
   );

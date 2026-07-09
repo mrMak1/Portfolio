@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // مراقبة التمرير لإظهار أو إخفاء الزر
+
   useEffect(() => {
     const toggleVisibility = () => {
-      // تم تعديل العتبة إلى 100 بكسل لضمان عمل الزر على الشاشات الكبيرة
+      
       if (window.scrollY > 100) {
         setIsVisible(true);
       } else {
